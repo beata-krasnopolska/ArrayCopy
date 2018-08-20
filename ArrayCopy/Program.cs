@@ -26,7 +26,7 @@ namespace ArrayCopy
             //Copy elements of first array into second array.
             for (int i = 0; i < numbElem; i++)
             {
-                firstArr[i] = secArr[i];
+                secArr[i] = firstArr[i];
             }
 
             Console.WriteLine("The elements stored in the second array are :");
